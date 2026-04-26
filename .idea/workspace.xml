@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3978c3d-6826-4d43-ad0a-4b8150427d69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colossus.stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/id/colossus/colossus_engine/ColossusEngineApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/id/colossus/colossus_engine/ColossusEngineApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/id/colossus/budget/account/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/id/colossus/budget/account/config/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +86,7 @@
       <workItem from="1777189765655" duration="386000" />
       <workItem from="1777190166099" duration="2557000" />
       <workItem from="1777211925577" duration="452000" />
-      <workItem from="1777227858295" duration="1844000" />
+      <workItem from="1777227858295" duration="2300000" />
     </task>
     <servers />
   </component>

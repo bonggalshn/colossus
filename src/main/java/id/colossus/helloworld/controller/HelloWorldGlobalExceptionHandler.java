@@ -19,9 +19,9 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
  * @version 1.0.0
  */
 @RestControllerAdvice
-public class GlobalExceptionHandler {
+public class HelloWorldGlobalExceptionHandler {
 
-    private static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
+    private static final Logger logger = LoggerFactory.getLogger(HelloWorldGlobalExceptionHandler.class);
 
     /**
      * Handles ResourceNotFoundException.
