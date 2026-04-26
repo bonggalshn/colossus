@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Log Files ###
+*.log
+colossus.stdout.log
+colossus.stderr.log
+colossus.pid
