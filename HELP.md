@@ -1,3 +1,8 @@
+# Read Me First
+The following was discovered as part of building this project:
+
+* The original package name 'id.colossus.colossus-engine' is invalid and this project uses 'id.colossus.colossus_engine' instead.
+
 # Getting Started
 
 ### Reference Documentation

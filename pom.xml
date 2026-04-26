@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>id.colossus</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>colossus-engine</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>
