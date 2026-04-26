@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3978c3d-6826-4d43-ad0a-4b8150427d69" name="Changes" comment="" />
+    <list default="true" id="b3978c3d-6826-4d43-ad0a-4b8150427d69" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +44,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.ColossusEngineApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature/init__project",
+    "git-widget-placeholder": "002-hello-world-api",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/My Stuff/dev/project_colossus/colossus",
@@ -93,7 +96,7 @@
       <updated>1777189187789</updated>
       <workItem from="1777189194279" duration="561000" />
       <workItem from="1777189765655" duration="386000" />
-      <workItem from="1777190166099" duration="1560000" />
+      <workItem from="1777190166099" duration="2557000" />
     </task>
     <servers />
   </component>
