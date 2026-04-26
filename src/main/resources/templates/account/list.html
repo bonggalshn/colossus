@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Accounts - Budget Planner</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 20px auto; padding: 20px; }
+        h1 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background: #f5f5f5; }
+        .btn { padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; display: inline-block; }
+        .btn-create { background: #4CAF50; color: white; }
+        .btn-edit { background: #2196F3; color: white; }
+        .btn-delete { background: #f44336; color: white; }
+        .btn-logout { background: #757575; color: white; float: right; }
+        .empty { text-align: center; padding: 40px; color: #666; }
+    </style>
+</head>
+<body>
+    <h1>My Budget Accounts</h1>
+    <a href="/accounts/new" class="btn btn-create">Create New Account</a>
+    <a href="/logout" class="btn btn-logout">Logout</a>
+    
+    <div id="accountsList">
+        <p>Loading accounts...</p>
+    </div>
+    
+    <script th:src="@{/js/account-list.js}"></script>
+</body>
+</html>
