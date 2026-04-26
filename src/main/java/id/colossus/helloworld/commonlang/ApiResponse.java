@@ -20,6 +20,8 @@ public class ApiResponse {
     private Instant timestamp;
     
     private String version;
+    
+    private Object data;
 
     public ApiResponse() {
         this.timestamp = Instant.now();
@@ -30,6 +32,13 @@ public class ApiResponse {
         this();
         this.message = message;
         this.status = status;
+    }
+
+    public ApiResponse(String message, String status, Object data) {
+        this();
+        this.message = message;
+        this.status = status;
+        this.data = data;
     }
 
     public String getMessage() {
@@ -63,6 +72,14 @@ public class ApiResponse {
     public void setVersion(String version) {
         this.version = version;
     }
+    
+    public Object getData() {
+        return data;
+    }
+    
+    public void setData(Object data) {
+        this.data = data;
+    }
 
     /**
      * Creates a successful response.
@@ -72,6 +89,17 @@ public class ApiResponse {
      */
     public static ApiResponse success(String message) {
         return new ApiResponse(message, "success");
+    }
+    
+    /**
+     * Creates a successful response with data.
+     *
+     * @param message The response message
+     * @param data The response data
+     * @return ApiResponse with success status and data
+     */
+    public static ApiResponse success(String message, Object data) {
+        return new ApiResponse(message, "success", data);
     }
 
     /**
